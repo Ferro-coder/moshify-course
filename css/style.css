@@ -18,6 +18,7 @@
 /* Typography */
 
 html {
+  /* 62.5% of 16px = 10px */
   font-size: 62.5%;
 }
 
@@ -295,7 +296,6 @@ a {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
-  width: 40rem;
 }
 
 .card__header,
@@ -399,7 +399,6 @@ a {
 
 /* Quotes */
 .quote {
-  margin-left: 3.5rem;
   font-size: 3rem;
   font-style: italic;
   color: var(--color-body-darker);
@@ -414,19 +413,10 @@ a {
   content: close-quote;
 }
 
-.quote__footer {
-  margin: 4rem 3.5rem;
-}
-
 .quote__author {
   font-size: 3rem;
-  font-weight: 600;
-  margin-top: 0.6rem;
-  color: var(--color-headings);
-  margin-bottom: 0;
-}
-
-.quote__text {
+  font-weight: 500;
+  font-style: normal;
   margin-bottom: 0;
 }
 
@@ -434,6 +424,7 @@ a {
   color: var(--color-headings);
   font-size: 2rem;
   opacity: 0.4;
+  font-style: normal;
 }
 
 .quote__line {
@@ -482,7 +473,6 @@ a {
 
 .testimonial__img > img {
   width: 100%;
-  position: relative;
 }
 
 .testimonial__img > .icon-container {
