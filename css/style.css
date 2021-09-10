@@ -614,6 +614,7 @@ a {
 .block {
   --padding-vertical: 6rem;
   padding: var(--padding-vertical) 2rem;
+  padding-top: 25rem;
 }
 
 .block__heading {
@@ -894,9 +895,6 @@ a {
 }
 
 /* Site */
-.footer--mosh {
-  margin-top: 25rem;
-}
 
 /* Footer Button */
 
@@ -930,6 +928,10 @@ a {
   align-items: center;
   justify-self: center;
   margin-right: 6rem;
+}
+
+.block__footer {
+  padding-top: 0;
 }
 
 @media screen and (max-width: 768px) {
